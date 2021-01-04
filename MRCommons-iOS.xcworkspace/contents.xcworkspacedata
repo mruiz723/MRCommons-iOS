@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:MRCommons-Example/MRCommons-Example.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:MRCommons/MRCommons.xcodeproj">
+   </FileRef>
+</Workspace>
