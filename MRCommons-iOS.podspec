@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.source_files  = "../MRCommons-iOS"
-  spec.source_files  = "MRCommons/MRCommons"
+  spec.source_files  = "MRCommons/MRCommons/Classes"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
