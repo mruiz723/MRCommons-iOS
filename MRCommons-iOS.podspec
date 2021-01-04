@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MRCommons-iOS"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "The MRCommons-iOS contains commons libraries, classes and methods that you normally use inside an app."
 
   # This description is used to generate tags and improve search results.
@@ -81,7 +81,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.source       = { :git => "http://EXAMPLE/MRCommons-iOS.git", :tag => "#{spec.version}" }
-  spec.source       = { :path => "." }
+  spec.source       = { :git => "https://github.com/mruiz723/MRCommons-iOS" :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
