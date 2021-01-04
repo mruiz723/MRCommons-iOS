@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   We can find a class called Bindable in order to implement MVVM Design pattern in your app, and some other stuff
                    DESC
 
-  spec.homepage     = "github.com/mruiz723/MRCommons-iOS"
+  spec.homepage     = "https://github.com/mruiz723/MRCommons-iOS"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -81,7 +81,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.source       = { :git => "http://EXAMPLE/MRCommons-iOS.git", :tag => "#{spec.version}" }
-  spec.source       = { :git => "https://github.com/mruiz723/MRCommons-iOS", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/mruiz723/MRCommons-iOS.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +92,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "MRCommons-iOS"
+  # spec.source_files  = "../MRCommons-iOS"
+  spec.source_files  = "MRCommons/MRCommons"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
