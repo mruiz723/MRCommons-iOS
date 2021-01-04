@@ -81,7 +81,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.source       = { :git => "http://EXAMPLE/MRCommons-iOS.git", :tag => "#{spec.version}" }
-  spec.source       = { :git => "https://github.com/mruiz723/MRCommons-iOS" :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/mruiz723/MRCommons-iOS", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
