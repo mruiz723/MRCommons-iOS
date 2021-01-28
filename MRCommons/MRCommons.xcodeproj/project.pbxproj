@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		097A454725C3293F0089B772 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097A454625C3293F0089B772 /* Storyboarded.swift */; };
 		09A8F55F25A12A2A005BAEAA /* MRCommons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A8F55525A12A2A005BAEAA /* MRCommons.framework */; };
 		09A8F56625A12A2A005BAEAA /* MRCommons.h in Headers */ = {isa = PBXBuildFile; fileRef = 09A8F55825A12A2A005BAEAA /* MRCommons.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09A8F57325A12B1A005BAEAA /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A8F57225A12B1A005BAEAA /* Bindable.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		097A454625C3293F0089B772 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 		09A8F55525A12A2A005BAEAA /* MRCommons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MRCommons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		09A8F55825A12A2A005BAEAA /* MRCommons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRCommons.h; sourceTree = "<group>"; };
 		09A8F55925A12A2A005BAEAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				09A8F57225A12B1A005BAEAA /* Bindable.swift */,
+				097A454625C3293F0089B772 /* Storyboarded.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09A8F57325A12B1A005BAEAA /* Bindable.swift in Sources */,
+				097A454725C3293F0089B772 /* Storyboarded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
