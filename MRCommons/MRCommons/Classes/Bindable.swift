@@ -7,7 +7,7 @@
 
 import Foundation
 
-/// This class allow us to implement a data binding mechanism
+/// This class allows us to implement a data binding mechanism
 /// (Connection between UI and Business logic (data changes))
 public class Bindable<T> {
     
