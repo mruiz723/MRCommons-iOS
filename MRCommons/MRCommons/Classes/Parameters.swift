@@ -66,7 +66,7 @@ public struct Parameter: Equatable {
     let name: String
     let value: Any
 
-    init(name: String, value: Any) {
+    public init(name: String, value: Any) {
         self.name = name
         self.value = value
     }

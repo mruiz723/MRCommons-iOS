@@ -14,7 +14,7 @@ public class URLRequestBuilder {
     private var headers: [HTTPHeader]
     private var url: URL?
 
-    init(withURL url: URL?) throws {
+    public init(withURL url: URL?) throws {
         self.url = url
         httpMethod = .get
         parameters = []

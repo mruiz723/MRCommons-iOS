@@ -8,8 +8,8 @@
 import Foundation
 
 /// This class allows us to implement an async operation knowing and handling its state
-public class AsyncOperation: Operation {
-    open var state = State.ready {
+open class AsyncOperation: Operation {
+    public var state = State.ready {
         willSet {
             willChangeValue(forKey: newValue.keyPath)
             willChangeValue(forKey: state.keyPath)
@@ -21,24 +21,24 @@ public class AsyncOperation: Operation {
     }
 
     // Override properties
-    public override var isReady: Bool {
+    open override var isReady: Bool {
         return super.isReady && state == .ready
     }
 
-    public override var isExecuting: Bool {
+    open override var isExecuting: Bool {
         return state == .executing
     }
 
-    public override var isFinished: Bool {
+    open override var isFinished: Bool {
         return state == .finished
     }
 
-    public override var isAsynchronous: Bool {
+    open override var isAsynchronous: Bool {
         return true
     }
 
     // Override start
-    public override func start() {
+    open override func start() {
         if isCancelled {
             state = .finished
             return
