@@ -16,8 +16,8 @@ let package = Package(
     targets: [
       .binaryTarget(
         name: "MRCommons",
-        url: "https://github.com/mruiz723/MRCommons-iOS/releases/download/1.2.0/MRCommons.xcframework.zip",
-        checksum: "64bed3f54b6062bcd672fcea3a12c2e9d47e03098778e055c8424c6c95df7599"
+        url: "https://github.com/mruiz723/MRCommons-iOS/releases/download/1.3.0/MRCommons.xcframework.zip",
+        checksum: "42e1ef94d7ebc21b95db3c4c82301de508a118975887a09e30c90b9cec71d554"
       )
     ]
 )
