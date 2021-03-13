@@ -13,10 +13,8 @@ class ViewController: UIViewController {
     // MARK: - Outlets
     @IBOutlet private weak var countLabel: UILabel!
 
-    var urlRequest: URLRequest?
-
     // MARK: - Properties
-    var httpHeaders: HTTPHeaders = HTTPHeaders()
+
     var viewModel: ViewModelProtocol! {
         didSet {
             viewModel.counter.bind { [weak self] newValue in
@@ -39,6 +37,5 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         viewModel.viewDidLoad()
-        urlRequest = URLRequestBuil
     }
 }
